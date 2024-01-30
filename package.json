@@ -1,5 +1,5 @@
 {
-  "name": "dream-home",
+  "name": "job-boards",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:dream-home": "node dist/dream-home/server/server.mjs"
+    "serve:ssr:job-boards": "node dist/job-boards/server/server.mjs"
   },
   "private": true,
   "dependencies": {
