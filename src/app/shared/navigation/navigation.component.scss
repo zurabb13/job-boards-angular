@@ -1,0 +1,19 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 1280px;
+}
+:host mat-toolbar {
+  color: red !important;
+  background: transparent;
+}

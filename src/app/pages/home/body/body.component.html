@@ -1,0 +1,25 @@
+<div>
+  <div>
+    <h2>Featured Job</h2>
+    <p>
+      Jobs is a curated job board of the best jobs for developers, designers and
+      marketers in the tech industry.
+    </p>
+  </div>
+  <div>
+    <ul>
+      @for (item of card; track $index) {
+        <li>
+          <a>
+            <img [src]="item.img" [alt]="item.title" />
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.desc }}</p>
+            <span>{{ item.people }} </span>
+            <span>{{ item.skils }} </span>
+            <button type="submit">Browse Job</button>
+          </a>
+        </li>
+      }
+    </ul>
+  </div>
+</div>

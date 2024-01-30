@@ -1,0 +1,18 @@
+<mat-toolbar>
+  <nav>
+    <ul class="first">
+      @for (item of navigation; track $index) {
+        <li>
+          <a [routerLink]="item.path">{{ item.name }} </a>
+        </li>
+      }
+    </ul>
+    <span class="example-spacer"></span>
+    <ul>
+      <li>
+        <a href="">Log In</a>
+      </li>
+      <li><a href="">Sign Up</a></li>
+    </ul>
+  </nav>
+</mat-toolbar>

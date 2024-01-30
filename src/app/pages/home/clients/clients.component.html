@@ -1,0 +1,15 @@
+<div>
+  <div>
+    <span>For Clients</span>
+    <h3>Why businesses turn to Nguli</h3>
+    <ul>
+      @for (item of client; track $index) {
+        <li>
+          <img [src]="item.img" alt="" />
+          <span>{{ item.title }} </span>
+          <p>{{ item.desc }}</p>
+        </li>
+      }
+    </ul>
+  </div>
+</div>

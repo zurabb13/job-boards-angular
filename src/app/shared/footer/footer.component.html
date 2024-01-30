@@ -1,0 +1,40 @@
+<footer>
+  <div>
+    <img src="" alt="" />
+    <span>logo</span>
+    <p>
+      We are taking action to help our freelancers, our clients, and the people
+      of Ukraine—and so can you.
+    </p>
+  </div>
+  <div>
+    <ul>
+      @for (item of data; track $index) {
+        <li>
+          <a href="">
+            {{ item.name }}
+          </a>
+        </li>
+      }
+    </ul>
+  </div>
+  <div>
+    <span>Newsletter</span>
+    <input type="text" />
+    <button>send</button>
+  </div>
+  <div>
+    <span>{{ date | date: "yyyy" }}® Baram</span>
+    <ul>
+      @for (item of social; track $index) {
+        <li>
+          <a href=""> <img [src]="item.img" alt="" /> </a>
+        </li>
+      }
+    </ul>
+    <div>
+      <a href="">Terms of Service</a>
+      <a href="">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
