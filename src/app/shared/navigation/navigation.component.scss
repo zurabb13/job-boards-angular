@@ -1,25 +1,29 @@
-.example-spacer {
-  flex: 1 1 auto;
-}
-ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  a {
-    color: #636366;
+@import "./../../../assets/style/variables.scss";
+
+:host mat-toolbar {
+  background: transparent;
+  height: 88px;
+  nav {
+    margin: 0 auto;
+    width: 1280px;
+    div {
+      a {
+        color: $grayscale;
+        span {
+          font-weight: 600;
+          font-size: 20px;
+        }
+      }
+    }
+    ul {
+      a {
+        color: $grayscale;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
   }
 }
-nav {
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-evenly;
-  width: 1280px;
-}
-:host mat-toolbar {
-  color: red !important;
-  background: transparent;
-}
 .active {
-  color: red !important;
+  color: $primary !important;
 }

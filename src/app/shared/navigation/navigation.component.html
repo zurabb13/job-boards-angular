@@ -1,6 +1,12 @@
 <mat-toolbar>
-  <nav>
-    <ul class="first">
+  <nav class="flex justify-around items-center gap-3">
+    <div>
+      <a href="" class="flex justify-center gap-3">
+        <img src="./assets/img/svg/logo.svg" alt="" />
+        <span>Jobs</span>
+      </a>
+    </div>
+    <ul class="flex justify-center gap-10 first">
       @for (item of navigation; track $index) {
         <li>
           <a
@@ -13,11 +19,11 @@
       }
     </ul>
     <span class="example-spacer"></span>
-    <ul>
+    <ul class="flex gap-5">
       <li>
-        <a href="">Log In</a>
+        <a class="btn-white" href="">Log In</a>
       </li>
-      <li><a href="">Sign Up</a></li>
+      <li><a class="btn-sign" href="">Sign Up</a></li>
     </ul>
   </nav>
 </mat-toolbar>
