@@ -1,5 +1,9 @@
 <div>
   <span>Find Job</span>
+  <div>
+    <img src="" alt="" />
+    <input matInput type="text" />
+  </div>
   <input type="text" />
   <select name="" id="">
     <option value="1">1</option>
@@ -13,3 +17,16 @@
   </select>
   <button>search</button>
 </div>
+
+<select matNativeControl required>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+<p-dropdown
+  [options]="cities"
+  optionLabel="name"
+  [showClear]="true"
+  placeholder="Select a City"
+></p-dropdown>

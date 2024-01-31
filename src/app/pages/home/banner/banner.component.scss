@@ -1,0 +1,32 @@
+@import "./../../../../assets/style/variables.scss";
+.banner {
+  width: 788px;
+  position: relative;
+
+  .dit {
+    width: 493px !important;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .info {
+    position: absolute;
+    width: 108px;
+    height: 134px;
+    border-radius: 16px;
+    top: 40px;
+    right: -50px;
+    background: linear-gradient(
+      130deg,
+      #fff -2.18%,
+      rgba(255, 255, 255, 0.56) 118.15%
+    );
+    box-shadow: 56px 56px 80px 0px rgba(2, 14, 35, 0.24);
+    backdrop-filter: blur(10px);
+    span {
+      color: $grayscale !important;
+    }
+    .p {
+      color: $grayscale-60 !important;
+    }
+  }
+}
