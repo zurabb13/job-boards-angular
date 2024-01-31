@@ -1,4 +1,4 @@
-import { Clients } from "../../../models/clients";
+import { Clients } from "../../../models/home/clients";
 
 export const client: Clients[] = [
   {

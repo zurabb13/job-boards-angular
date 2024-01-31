@@ -6,6 +6,9 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  a {
+    color: #636366;
+  }
 }
 nav {
   margin: 0 auto;
@@ -16,4 +19,7 @@ nav {
 :host mat-toolbar {
   color: red !important;
   background: transparent;
+}
+.active {
+  color: red !important;
 }

@@ -1,0 +1,14 @@
+<div>
+  <h3>Clients and talent leave each other 10k new reviews per week</h3>
+  <div>
+    @for (item of details; track $index) {
+      <div>
+        <img [src]="item.logo" alt="" />
+        <span>{{ item.title }} </span>
+        <img src="" alt="" />
+        <span>{{ item.name }} </span>
+        <p>{{ item.position }}</p>
+      </div>
+    }
+  </div>
+</div>

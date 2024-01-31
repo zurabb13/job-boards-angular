@@ -1,4 +1,4 @@
-import { Nav } from "../../models/navigation";
+import { Nav } from "../../models/home/navigation";
 
 export const navigation: Nav[] = [
   {
@@ -7,22 +7,22 @@ export const navigation: Nav[] = [
   },
   {
     name: "Find Talent",
-    path: "/find",
+    path: "/find-job",
   },
   {
     name: "Clients",
-    path: "/home",
+    path: "/clients",
   },
   {
     name: "Community",
-    path: "/home",
+    path: "/community",
   },
   {
     name: "Blog",
-    path: "/home",
+    path: "/blog",
   },
   {
     name: "About Us",
-    path: "/home",
+    path: "/about",
   },
 ];

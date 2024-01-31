@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 import { client } from "./client";
-import { Clients } from "../../../models/clients";
+import { Clients } from "../../../models/home/clients";
 
 @Component({
   selector: "home-clients",
