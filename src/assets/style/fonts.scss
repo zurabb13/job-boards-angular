@@ -1,0 +1,17 @@
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@500,600,401,400,700&display=swap%22%20rel=%22stylesheet");
+@font-face {
+  font-family: "General-Medium";
+  src: url("./../fonts/GeneralSans-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "General-Regular";
+  src: url("./../fonts/GeneralSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "General-Bold";
+  src: url("./../fonts/GeneralSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "General-Italic";
+  src: url("./../fonts/GeneralSans-Italic.ttf") format("truetype");
+}

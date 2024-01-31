@@ -1,0 +1,91 @@
+@import "./mixin.scss";
+@import "./fonts.scss";
+@import "./variables.scss";
+
+h1 {
+  @include font-family($grayscale, "General-Medium", 72, normal, 500, 80, 0.36);
+}
+h2 {
+  @include font-family($grayscale, "General-Medium", 48, normal, 500, 56, 0.24);
+}
+h3 {
+  @include font-family($grayscale, "General-Medium", 40, normal, 500, 48, 0.2);
+}
+h4 {
+  @include font-family($grayscale, "General-Medium", 32, normal, 500, 40, 0.16);
+}
+h5 {
+  @include font-family($grayscale, "General-Medium", 24, normal, 500, 32, 0.12);
+}
+h6 {
+  @include font-family($grayscale, "General-Medium", 20, normal, 500, 28, 0.1);
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    @include font-family(
+      $grayscale,
+      "General-Medium",
+      40,
+      normal,
+      500,
+      80,
+      0.36
+    );
+  }
+  h2 {
+    @include font-family(
+      $grayscale,
+      "General-Medium",
+      32,
+      normal,
+      500,
+      56,
+      0.24
+    );
+  }
+  h3 {
+    @include font-family(
+      $grayscale,
+      "General-Medium",
+      28,
+      normal,
+      500,
+      48,
+      0.2
+    );
+  }
+  h4 {
+    @include font-family(
+      $grayscale,
+      "General-Medium",
+      24,
+      normal,
+      500,
+      40,
+      0.16
+    );
+  }
+  h5 {
+    @include font-family(
+      $grayscale,
+      "General-Medium",
+      20,
+      normal,
+      500,
+      32,
+      0.12
+    );
+  }
+  h6 {
+    @include font-family(
+      $grayscale,
+      "General-Medium",
+      20,
+      normal,
+      500,
+      28,
+      0.1
+    );
+  }
+}
