@@ -1,8 +1,8 @@
 import { CommonModule } from "@angular/common";
 import { Component } from "@angular/core";
 import { DropdownModule } from "primeng/dropdown";
-
-const MATERIAL = [DropdownModule];
+import { ButtonModule } from "primeng/button";
+const MATERIAL = [DropdownModule, ButtonModule];
 @Component({
   selector: "home-search",
   standalone: true,

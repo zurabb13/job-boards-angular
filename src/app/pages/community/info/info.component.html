@@ -1,1 +1,18 @@
-<p>info works!</p>
+<ng-container *ngTemplateOutlet="greet"></ng-container>
+<hr />
+<ng-container *ngTemplateOutlet="eng; context: myContext"></ng-container>
+<hr />
+<ng-container *ngTemplateOutlet="svk; context: myContext"></ng-container>
+<hr />
+
+<ng-template #greet>
+  <span>hello</span>
+</ng-template>
+
+<ng-template #eng let-name>
+  <span>hello {{ name }}! </span>
+</ng-template>
+
+<ng-template #svk let-person="localSk">
+  <span>Ahok {{ person }}</span>
+</ng-template>
